@@ -22,3 +22,5 @@ matplotlib>=3.8.0             # Visualise results in VSCode
 pytest>=8.2.0                 # Unit testing
 black>=24.4.0                 # Code formatter
 ruff>=0.4.0                   # Fast linter
+
+kagglehub>=0.3.0              # Kaggle dataset downloader
