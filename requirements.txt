@@ -1,0 +1,24 @@
+# ── Core AI / ML ──────────────────────────────────────────────────────────────
+torch>=2.2.0                  # Deep learning framework
+torchvision>=0.17.0           # Image transforms & pretrained vision models
+transformers>=4.40.0          # HuggingFace – CLIP and other pretrained models
+open-clip-torch>=2.24.0       # OpenCLIP – best open-source CLIP implementation
+Pillow>=10.3.0                # Image loading and preprocessing
+scikit-learn>=1.4.0           # Similarity search, clustering (outfit matching)
+numpy>=1.26.0                 # Numerical operations
+
+# ── Backend / API ──────────────────────────────────────────────────────────────
+fastapi>=0.111.0              # API framework (connects AI to your app)
+uvicorn>=0.29.0               # ASGI server to run FastAPI
+python-multipart>=0.0.9       # Handles image file uploads in FastAPI
+pydantic>=2.7.0               # Data validation (request/response models)
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+httpx>=0.27.0                 # Async HTTP client (calling weather APIs)
+python-dotenv>=1.0.0          # Load API keys from .env file
+matplotlib>=3.8.0             # Visualise results in VSCode
+
+# ── Dev & Testing ──────────────────────────────────────────────────────────────
+pytest>=8.2.0                 # Unit testing
+black>=24.4.0                 # Code formatter
+ruff>=0.4.0                   # Fast linter
