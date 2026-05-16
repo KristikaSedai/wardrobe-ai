@@ -6,10 +6,10 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import csv
 
-# ── 1. Load CLIP model ────────────────────────────────────────────────────────
+# ── 1. Load FashionCLIP model ────────────────────────────────────────────────────────
 print("Loading CLIP model...")
-model, preprocess_train, preprocess_val = open_clip.create_model_and_transforms('ViT-B-32', pretrained='openai')
-tokenizer = open_clip.get_tokenizer('ViT-B-32')
+model, preprocess_train, preprocess_val = open_clip.create_model_and_transforms('hf-hub:Marqo/marqo-fashionCLIP')
+tokenizer = open_clip.get_tokenizer('hf-hub:Marqo/marqo-fashionCLIP')
 model.eval()
 print("Model loaded!")
 
