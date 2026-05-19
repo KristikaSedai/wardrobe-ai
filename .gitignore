@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset files
+data/
+
+# Optional: keep folder structure but ignore large images
+# data/archive/images/
+
+# Mac files
+.DS_Store
